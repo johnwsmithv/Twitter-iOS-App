@@ -1,27 +1,8 @@
-# Project 3 - *Name of App Here*
+# Project 3 - Twitter
 
 **Name of your app** is a basic twitter app to read your tweets.
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
-## User Stories
-
-The following **required** functionality is completed:
-
-- [ ] User sees app icon in home screen and styled launch screen. (1pt)
-- [ ] User can log in. (1pt)
-- [ ] User can log out. (1pt)
-- [ ] User stays logged in across restarts. (1pt)
-- [ ] User can view tweets with the user profile picture, username, and tweet text. (6pts)
-
-The following **bonus** features are implemented:
-
-- [ ] User can pull to refresh. (1pt)
-- [ ] User can load past tweets infinitely. (2pts)
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+This app is built on Twitter's API; it is able to allow the user to login to their Twitter account, and when the user closes the app, it is able to remember if the user was logged in or not. The app is able to load tweets from the Users timeline: the persons profile image, the name of their profile and the content of their tweet. The user can pull down at the top of the screen to load in more recent tweets and the user can infinitely scroll. Finally, as a bonus feature, I was able to load in the total number of favorites and retweets each tweet has gotten.
 

@@ -27,6 +27,7 @@ class TwitterAPICaller: BDBOAuth1SessionManager {
         loginSuccess = success
         loginFailure = failure
         TwitterAPICaller.client?.deauthorize()
+        // Literally GETTING the data from the Twitter Servers by GET requests; in the next part, we are going to be sending POST requests to the servers to post things like tweets
         TwitterAPICaller.client?.fetchRequestToken(withPath: url, method: "GET", callbackURL: URL(string: "alamoTwitter://oauth"), scope: nil, success: { (requestToken: BDBOAuth1Credential!) -> Void in
             let url = URL(string: "https://api.twitter.com/oauth/authorize?oauth_token=\(requestToken.token!)")!
             UIApplication.shared.open(url)
